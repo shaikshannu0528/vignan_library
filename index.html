@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Library.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="form" id="form_container">
+        <form class="form1" id="form">
+            <p class="form_text" id="login">Log in</p>
+            <div class="form_inner">
+                <div class="form2">
+                    <p class="form2">User ID: </p>
+                    <p class="form2">Role: </p>
+                </div>
+                <div class="form2">
+                    <input class="form_inner" type="text" id="userid" placeholder="Regd no./Emp Id" required autofocus>
+                    <select class="form_inner" name="Role" id="Role" required>
+                        <option>--Select--</option>
+                        <option value="Student">Student</option>
+                        <option value="Faculty">Faculty</option>
+                    </select>
+                </div>
+            </div>
+            <button id="btn">Log in</button>
+        </form>
+    </div>
+    <div class="outer" id="outer">
+        <div class="container menu" id="nav">
+            <div class="depts" id="home">Home</div>
+            <div class="depts" id="0">AIML</div>
+            <div class="depts" id="1">CSE</div>
+            <div class="depts" id="2">Management</div>
+            <div class="depts" id="3">ECE</div>
+            <div class="depts" id="d5">dept5</div>
+            <div class="depts" id="d6">dept6</div>
+            <div class="depts" id="d7">dept7</div>
+            <div class="depts" id="d8">dept8</div>
+        </div>
+        <div class="container content_container" id="content">
+            <div class="profile" id="profile_btn">
+                <a href="#"><i class="fa-regular fa-user" id="a"></i></a>
+            </div>
+            <div class="profile_div" id="profile_open">
+                <div>
+                    <p id="u" style="text-align: center;">User Id</p>
+                    <p id="uid" style="text-align: center;"></p>
+                </div>
+                <button id="log_out_btn">Log Out</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Library.js"></script>
+</body>
+
+</html>
